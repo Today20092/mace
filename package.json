@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "TailBliss": "github:nusserstudios/tailbliss"
+  }
+}
