@@ -6,8 +6,20 @@
 
 /* Set the background color for the page */
 body {
-  background-color: #f0f0f0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
+
+.testbackground {
+  background: url(pepper.png);
+  background-size: 200px 200px;
+  background-repeat: repeat;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 
 /* Center all content horizontally */
 .center {
@@ -27,7 +39,7 @@ textarea {
 
 /* Style the header */
 header {
-  background-image: url("https://via.placeholder.com/800x400");
+  /* background-image: url("https://via.placeholder.com/800x400"); */
   background-size: cover;
   background-position: center;
   height: 400px;
