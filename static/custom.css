@@ -6,7 +6,7 @@
 
 /* Set the background color for the page */
 body {
-  background-color: #f0f0f0;
+  background-color: #cf9f9f;
 }
 
 /* Center all content horizontally */
@@ -27,15 +27,17 @@ textarea {
 
 /* Style the header */
 header {
-  background-image: url("https://via.placeholder.com/800x400");
+  background-image: url("https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 800px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+
 
 /* Style the header text */
 h1 {
@@ -64,6 +66,8 @@ main {
   margin-top: 50px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+
 
 /* Style the animated class */
 .animated {
@@ -159,6 +163,32 @@ nav.thin a {
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   animation: pulse 3s ease-in-out infinite;
 }
+
+.container {
+  display: flex;
+}
+
+.box {
+  width: 800px;
+  height: 400px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: gray;
+}
+
+.rounded-box {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 12px;
+  background-color: black;
+    color: gold;
+    padding-bottom: 6px;
+}
+
+
+
+
+
 
 @keyframes pulse {
   0% {
