@@ -34,7 +34,7 @@ We are striving in creating excellence for your fitness journey with MACE Prewor
 {{< /paige/hero >}}
 
 <div style="text-align: center;"> 
-<h2> <strong> <a href="/services/">Services</a> </strong> 
+<h2> <strong> <a href="/services/">Supplementation</a> </strong> 
 </div>
 
 </h2>
