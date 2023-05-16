@@ -1,0 +1,18 @@
+/* Style the supplement facts table */
+table {
+  border-collapse: collapse;
+  margin: 50px auto;
+  max-width: 100%;
+  width: 500px;
+}
+
+table td,
+table th {
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: rgba(0, 0, 0, 0);
+}
