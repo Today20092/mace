@@ -1,3 +1,93 @@
-baseURL: http://example.org/
-languageCode: en-us
-title: MACE Preworkout
+baseurl: "www.tampashutter.net"
+copyright: "© Ayoub Abedrabbo"
+enablerobotstxt: true
+languagecode: "en-us"
+languages:
+  en:
+    menu:
+      main:
+      - identifier: "home"
+        name: "Home"
+        url: "/"
+        weight: 10
+      #- identifier: "content"
+      #  name: "Content"
+      #  url: "/content/"
+      #  weight: 20
+      - identifier: "aboutme"
+        name: "About Me"
+        url: "/aboutme/"
+        weight: 30
+      - identifier: "gallery"
+        name: "Gallery"
+        url: "/gallery/"
+        weight: 40
+      - identifier: "contactme"
+        name: "Contact Me @ Telegram"
+        url: "https://t.me/AyoubAb1"
+        weight: 40
+      - identifier: "Services"
+        name: "Services"
+        url: "/services/"
+        weight: 50
+      #- identifier: "shortcodes"
+      #  name: "Shortcodes"
+      #  url: "/shortcodes/"
+      #  weight: 40
+      #- identifier: "customization"
+      #  name: "Customization"
+      #  url: "/customization/"
+      #  weight: 50
+      #- identifier: "authors"
+      #  name: "Authors"
+      #  url: "/authors/"
+      #  weight: 60
+      #- identifier: "series"
+      #  name: "Series"
+      #  url: "/series/"
+      #  weight: 70
+      #- identifier: "categories"
+      #  name: "Categories"
+      #  url: "/categories/"
+      #  weight: 80
+      #- identifier: "tags"
+      #  name: "Tags"
+      #  url: "/tags/"
+      #  weight: 90
+      #- identifier: "search"
+      #  name: "Search"
+      #  url: "/search/"
+      #  weight: 100
+    #weight: 10
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noclasses: false
+  tableofcontents:
+    endlevel: 6
+    ordered: true
+    startlevel: 2
+outputs:
+  home:
+  - "html"
+  - "json"
+  - "rss"
+paginate: 50
+params:
+  authors:
+    will-faught:
+      name: "Ayoub Abedrabbo"
+  paige:
+    git:
+      commit_url_prefix: "https://github.com/willfaught/paige/commit/"
+taxonomies:
+  author: "authors"
+  category: "categories"
+  series: "series"
+  tag: "tags"
+theme: "paige"
+timezone: "America/New_York"
+titlecasestyle: "Go"
+paige:
