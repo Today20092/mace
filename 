@@ -1,0 +1,112 @@
+[33mcommit 269ed1a89a01732cfb70717d371103c63a33452d[m[33m ([m[1;36mHEAD -> [m[1;32mPaigeThemeTemp[m[33m)[m
+Author: Ayoub Abedrabbo <Ayoub.Abedrabbo@Gmail.com>
+Date:   Tue May 16 16:36:30 2023 -0400
+
+    Added everything except photos from Tampa Shutter
+    
+    I am adding everything here to start with a clean website template.
+
+[33mcommit 941c1c2ac001fa64ff2fba35820ea419050a4092[m
+Author: Ayoub Abedrabbo <Ayoub.Abedrabbo@Gmail.com>
+Date:   Tue May 16 16:33:00 2023 -0400
+
+    Copied all files except photos from TampaShutter to here
+    
+    Starting with my website for a clean setup.
+
+[33mcommit c9b944d31175487fc0ba1996d801fef86e29f494[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Ayoub Abedrabbo <Ayoub.Abedrabbo@Gmail.com>
+Date:   Mon May 8 17:48:23 2023 -0400
+
+    added macepreworkout html
+
+[33mcommit e9b022fa8f121992cb98f2e9b25102417d8eb60b[m
+Merge: d710837 c3a993b
+Author: Ayoub Abedrabbo <Ayoub.Abedrabbo@Gmail.com>
+Date:   Wed May 3 02:02:04 2023 -0400
+
+    Merge branch 'main' of https://github.com/Today20092/mace
+
+[33mcommit d71083778da406f073a6ef2ab3738eee94ce1261[m
+Author: Ayoub Abedrabbo <Ayoub.Abedrabbo@Gmail.com>
+Date:   Wed May 3 02:01:55 2023 -0400
+
+    clear
+
+[33mcommit c3a993b2411351e4a93ddc8b688a1014c8b630a5[m
+Author: Ayoub <79241611+Today20092@users.noreply.github.com>
+Date:   Wed May 3 05:51:13 2023 +0000
+
+    Create README.md
+
+[33mcommit dd9f9b3f0e98a11e2571b0f728f68153ed3f11b8[m
+Author: Ayoub Abedrabbo <Ayoub.Abedrabbo@Gmail.com>
+Date:   Wed May 3 01:45:50 2023 -0400
+
+    no theme, index test
+
+[33mcommit de5483086678d27a83ff63000c9cec23fd72b82a[m
+Author: Ayoub Abedrabbo <Ayoub.Abedrabbo@Gmail.com>
+Date:   Wed May 3 01:36:02 2023 -0400
+
+    remove tailbliss theme
+
+[33mcommit 6653cb616911305f9f100e123fe8c7c1917ca066[m
+Author: Ayoub Abedrabbo <Ayoub.Abedrabbo@Gmail.com>
+Date:   Wed May 3 01:26:37 2023 -0400
+
+    added tailbliss theme
+
+[33mcommit ce0e7803bccb4524a2df763179ec55adac2be1ad[m
+Author: Ayoub Abedrabbo <Ayoub.Abedrabbo@Gmail.com>
+Date:   Wed May 3 01:20:17 2023 -0400
+
+    added github action
+
+[33mcommit 1c4db825b2751103ed8690c2b75ceb418dc2c95d[m
+Author: Ayoub Abedrabbo <Ayoub.Abedrabbo@Gmail.com>
+Date:   Wed May 3 01:11:45 2023 -0400
+
+    hugo base, no theme
+
+[33mcommit 59079065a608788ac242c6e11b4d3b5d6219f119[m
+Author: Ayoub Abedrabbo <Ayoub.Abedrabbo@Gmail.com>
+Date:   Wed May 3 01:09:38 2023 -0400
+
+    index test
+
+[33mcommit cee86b414a8e04ff4e20329e9d8a19f891d6c4cc[m
+Author: Ayoub Abedrabbo <Ayoub.Abedrabbo@Gmail.com>
+Date:   Wed May 3 01:07:09 2023 -0400
+
+    updated readme
+
+[33mcommit 386d0093cc79be9d3d3e6b6c3b28add7f76d4851[m
+Author: Ayoub Abedrabbo <Ayoub.Abedrabbo@Gmail.com>
+Date:   Wed May 3 01:03:07 2023 -0400
+
+    hi womplet
+
+[33mcommit b9e5afdb3fbdc48930e492d52be1a301e9b15879[m
+Author: Womplet <73143943+Womplet@users.noreply.github.com>
+Date:   Wed May 3 01:01:00 2023 -0400
+
+    test4
+
+[33mcommit 5c515b2949ca372b2f6b997fd435780b39a83a64[m
+Author: Ayoub Abedrabbo <Ayoub.Abedrabbo@Gmail.com>
+Date:   Wed May 3 00:56:26 2023 -0400
+
+    123
+
+[33mcommit 7cdbbba0974b01f082083965f607f61585b24f9e[m
+Author: Ayoub <79241611+Today20092@users.noreply.github.com>
+Date:   Wed May 3 04:52:29 2023 +0000
+
+    Create testing.md
+
+[33mcommit de8b010f5f18e0ca4ab984b1c310a9cdefab2b9a[m
+Author: Ayoub <79241611+Today20092@users.noreply.github.com>
+Date:   Wed May 3 04:50:39 2023 +0000
+
+    Initial commit
