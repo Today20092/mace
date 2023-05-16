@@ -1,0 +1,22 @@
+* {
+  margin: 1vh;
+  padding: 1vh;
+}
+
+body {
+  background-color: black;
+  font-size: 14px;
+  color: rgb(255, 251, 0);
+  text-decoration: violet;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  font-size: 18px;
+  color: blue;
+}
+
+img {
+  box-shadow: 10px 9px 12px rgb(255, 255, 255);
+}
