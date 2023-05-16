@@ -1,0 +1,3 @@
+[submodule "paige"]
+	path = paige
+	url = https://github.com/willfaught/paige

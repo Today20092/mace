@@ -1,0 +1,9 @@
+{{ $content := .Inner | replaceRE "^\n" "" }}
+{{ $lang := .Get 0 | default (.Get "lang") | default "plaintext" }}
+{{ $options := .Get "options" }}
+
+{{ if not $content }}
+    {{ errorf "paige/code: no content" }}
+{{ end }}
+
+<div class="paige-code">{{ highlight $content $lang $options }}</div>

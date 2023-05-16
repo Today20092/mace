@@ -1,0 +1,32 @@
+{{ $page := . }}
+
+{{ $result := slice }}
+
+{{ if $page.Params.authors }}
+    {{ range $page.Params.authors }}
+        {{ $id := "" }}
+        {{ $name := "" }}
+
+        {{ if reflect.IsMap . }}
+            {{ with .author }}
+                {{ $id = . }}
+                {{ $name = (index site.Params.authors .).name }}
+            {{ else }}
+                {{ $name = .name }}
+            {{ end }}
+        {{ else }}
+            {{ $id = . }}
+            {{ $name = (index site.Params.authors .).name }}
+        {{ end }}
+
+        {{ $result = $result | append (dict "id" $id "name" $name) }}
+    {{ end }}
+{{ else if site.Params.authors }}
+    {{ range $k, $v := site.Params.authors }}
+        {{ if eq $v.default true }}
+            {{ $result = $result | append (dict "id" $k "name" $v.name) }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+{{ return $result }}

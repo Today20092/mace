@@ -1,0 +1,26 @@
+<button onclick="topFunction()"
+  style="position: fixed; bottom: 20px; right: 30px; font-size: 20px; border: none; outline: none; background-color: #0D6EFD; color: white; cursor: pointer; padding: 10px; border-radius: 12px;"
+  id="myBtn" title="Go to top">
+  <i class="fa-solid fa-arrow-up fa-fade" style="font-size: 25px;"></i>
+</button>
+
+<script>
+  // When the user scrolls down 150px from the top of the document, show the button
+  window.onscroll = function () { scrollFunction() };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+      document.getElementById("myBtn").style.display = "block";
+    } else {
+      document.getElementById("myBtn").style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+</script>
+
+<script src="https://kit.fontawesome.com/e8d1b35a19.js" crossorigin="anonymous"></script>

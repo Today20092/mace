@@ -1,0 +1,6 @@
+{{ $params := . }}
+
+$color-mode-type: media-query;
+$primary: {{ $params.color }};
+
+@import "bootstrap";
