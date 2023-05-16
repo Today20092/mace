@@ -1,0 +1,39 @@
+{{ $alt := .Get "alt" }}
+{{ $format := .Get "format" }}
+{{ $height := .Get "height" }}
+{{ $link := .Get "link" }}
+{{ $maxheight := .Get "maxheight" }}
+{{ $maxwidth := .Get "maxwidth" }}
+{{ $method := .Get "method" }}
+{{ $options := .Get "options" }}
+{{ $src := .Get 0 | default (.Get "src") }}
+{{ $title := .Get "title" }}
+{{ $width := .Get "width" }}
+
+{{ if not $src }}
+    {{ errorf "paige/image: no content" }}
+{{ end }}
+
+{{ $content := partial "paige/img.html" (dict
+    "alt" $alt
+    "class" "img-fluid"
+    "format" $format
+    "height" $height
+    "maxheight" $maxheight
+    "maxwidth" $maxwidth
+    "method" $method
+    "options" $options
+    "page" .Page
+    "src" $src
+    "title" $title
+    "width" $width
+) }}
+
+{{ if $link }}
+    {{ $content = partial "paige/a.html" (dict
+        "content" $content
+        "href" $link
+    ) }}
+{{ end }}
+
+<div class="paige-image">{{ $content }}</div>

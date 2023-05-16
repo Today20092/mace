@@ -1,0 +1,105 @@
+{{ $page := . }}
+
+{{ $authors := partial "paige/authors.html" $page }}
+{{ $categories := $page.Params.categories | default slice | uniq }}
+{{ $commiturl := "" }}
+{{ $date := cond (eq ($page.Param "paige.date.source" | default "published") "published") $page.PublishDate $page.Lastmod }}
+{{ $dateformat := $page.Param "paige.date.format" | default ":date_long" }}
+{{ $description := $page.Description | markdownify }}
+{{ $link := $page.Params.link }}
+{{ $readingtime := $page.ReadingTime }}
+{{ $series := $page.Params.series }}
+{{ $tags := $page.Params.tags | default slice | uniq }}
+{{ $title := $page.Title | markdownify }}
+
+{{ if and ($page.Param "paige.git.commit_url_prefix") $page.GitInfo }}
+    {{ $commiturl = print ($page.Param "paige.git.commit_url_prefix") $page.GitInfo.Hash }}
+{{ end }}
+
+<div class="w-100" id="paige-metadata">
+    {{ with $title }}
+        <h1 class="display-5 fw-bold text-center" id="paige-title">{{ if $link }}<a href="{{ $link }}">{{ . }}</a>{{ else }}{{ . }}{{ end }}</h1>
+    {{ end }}
+
+    {{ with $description }}
+        <p class="lead text-center" id="paige-description">{{ . }}</p>
+    {{ end }}
+
+    {{ if or $categories $tags }}
+        <p class="text-center" id="paige-keywords">
+            {{ $terms := slice }}
+
+            {{ range $categories }}
+                {{ $terms = $terms | append (dict "name" . "url" (printf "categories/%v/" . | relLangURL | string)) }}
+            {{ end }}
+
+            {{ range $tags }}
+                {{ $terms = $terms | append (dict "name" . "url" (printf "tags/%v/" . | relLangURL | string)) }}
+            {{ end }}
+
+            {{ range sort $terms "name" }}
+                {{ $name := .name }}
+
+                {{ with site.GetPage .url }}
+                    {{ $name = .Title }}
+                {{ end }}
+
+                <a class="badge paige-keyword text-bg-secondary text-decoration-none" href="{{ .url | safeURL }}">{{ $name }}</a>
+            {{ end }}
+        </p>
+    {{ end }}
+
+    {{ if or $authors $date $readingtime $series }}
+        <div class="mb-3">
+            {{ with $series }}
+                <p class="mb-0 text-center text-secondary" id="paige-series">
+                    {{ range $i, $name := . -}}
+                        {{- if gt $i 0 }}, {{ end -}}
+
+                        {{- with site.GetPage (print "series/" $name) -}}
+                            <a class="link-secondary" href="{{ .RelPermalink }}">{{ .Title | default $name }}</a>
+                        {{- else -}}
+                            {{- $name -}}
+                        {{- end -}}
+                    {{- end }}
+                </p>
+            {{ end }}
+
+            {{ with $authors }}
+                <p class="mb-0 text-center text-secondary" id="paige-authors">
+                    {{ range $i, $author := . -}}
+                        {{- if gt $i 0 }}, {{ end -}}
+
+                        {{- with $author.id -}}
+                            {{- with site.GetPage (print "authors/" .) -}}
+                                <a class="link-secondary" href="{{ .RelPermalink }}">{{ .Title | default $author.name }}</a>
+                            {{- else -}}
+                                {{- $author.name -}}
+                            {{- end -}}
+                        {{- else -}}
+                            {{- $author.name -}}
+                        {{- end -}}
+                    {{- end }}
+                </p>
+            {{ end }}
+
+            {{ with $date }}
+                <p class="mb-0 text-center text-secondary" id="paige-date">
+                    {{ with $commiturl }}
+                        <a class="link-secondary" href="{{ . }}">
+                    {{ end }}
+
+                    <time datetime="{{ .Format `2006-01-02` }}">{{ time.Format $dateformat . }}</time>
+
+                    {{ if $commiturl }}
+                        </a>
+                    {{ end }}
+                </p>
+            {{ end }}
+
+            {{ with $readingtime }}
+                <p class="mb-0 text-center text-secondary" id="paige-reading-time">{{ . }} {{ i18n "paige_minutes" . }}</p>
+            {{ end }}
+        </div>
+    {{ end }}
+</div>
