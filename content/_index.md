@@ -1,5 +1,5 @@
 ---
-description: "Photography, Videographer, Livestreaming service based in Tampa, Florida."
+description: "The preworkout you've been looking for with the kick to get you going."
 paige:
   style: |
     #paige-date,
@@ -12,31 +12,26 @@ paige:
         display: none;
     }
     #paige-title {
-        font-size: 5rem;
+        font-size: 4rem;
     }
-title: "Tampa Shutter"
+title: 'MACE PREWORKOUT'
 ---
-<head>
-
-<meta name="Homepage" content="Ayoub Abedrabbo's photography, videography, music video, livestreaming, and video editing services based in Tampa, Florida.
-
-</head>
-
-{{< paige/hero
-    alt="Landscape"
-    format="webp"
-    header="Photographic & Video Expert"
-    image="logo.png"
-    imageclass="rounded-4 shadow img-fluid"
-    stretch=cover >}}
-My name is Ayoub Abedrabbo. I am the creator of Tampa Shutter & I welcome you to our journey together. My goals are to represent you in the best possible image possible and to bring the deserved attention to your brand; I do this by understanding your values & profession.
-{{< /paige/hero >}}
 
 <style>
   h2, ul {
     text-align: center;
   }
 </style>
+
+{{< paige/hero
+    alt="Landscape"
+    format="webp"
+    header="What is MACE Preworkout?"
+    image="logo.png"
+    imageclass="rounded-4 shadow img-fluid"
+    stretch=cover >}}
+We are striving in creating excellence for your fitness journey with MACE Preworkout: natural flavoring, nautral colors, a hint of stevia, and the kick you need to get you motivated & on track.
+{{< /paige/hero >}}
 
 <div style="text-align: center;"> 
 <h2> <strong> <a href="/services/">Services</a> </strong> 
@@ -61,7 +56,7 @@ Come check out my previous work on my gallery! There you will find collections.
 
 <h2> <strong> Booking </strong> </h2>
 
-If you're looking to book an appointment with me the best place to contact me will be on <a href="https://t.me/AyoubAb1">Telegram</a>, you can message me on my <a href="https://www.instagram.com/tampashutter/">Instagram</a> or <a href="/vcard/ayoubabedrabbo.vcf" target="_self" download="AyoubContactCard.vcf">download</a> my contact info & text/call me. View my business card <a href="/vcard">here.</a> 
+If you're looking to book an appointment with me the best place to contact me will be on <a href="https://t.me/AyoubAb1">Telegram</a>, you can message me on my <a href="https://www.instagram.com/tampashutter/">Instagram</a> or <a href="/vcard/ayoubabedrabbo.vcf" target="_self" download="AyoubContactCard.vcf">download</a> my contact info & text/call me. View my business card <a href="/vcard">here.</a>
 
 </div>
 
@@ -72,4 +67,3 @@ If you're looking to book an appointment with me the best place to contact me wi
     {{< paige/icon class="bi bi-tree" name="Linktree" url="https://linktr.ee/AyoubTheGreat" >}}
     {{< paige/icon class="bi bi-person-lines-fill" name="ContactCard" url="/vcard/ayoubabedrabbo.vcf" >}}
 </div>
-
