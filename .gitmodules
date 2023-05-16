@@ -1,3 +1,6 @@
 [submodule "paige"]
 	path = paige
 	url = https://github.com/willfaught/paige
+[submodule "themes/paige"]
+	path = themes/paige
+	url = https://github.com/willfaught/paige.git

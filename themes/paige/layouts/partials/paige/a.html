@@ -1,8 +1,0 @@
-{{ $params := . }}
-
-{{ $class := $params.class }}
-{{ $content := $params.content }}
-{{ $href := $params.href }}
-{{ $style := $params.style }}
-
-<a {{ with $class }} class="{{ . }}" {{ end }} {{ with $href }} href="{{ . | safeURL }}" target="_blank" {{ end }} {{ with $style }} style="{{ . | safeCSS }}" {{ end }}>{{ $content }}</a>
