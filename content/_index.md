@@ -15,6 +15,11 @@ title: 'MACE PRE-WORKOUT'
 
 <!-- All styling for this page goes here (just like normal .css file) -->
 <style>
+/* Styling for the H1 Heading (Main Title) */
+h1 {
+    line-height: 2;
+}
+
 /* Style the supplement facts table */
 table {
   border-collapse: collapse;
@@ -36,8 +41,8 @@ table th {
 
 /* Alternating row colors */
 table tr:nth-child(even) {
-  background-color: #f1f1f1;
-  font-color: #ffffff;
+  /* background-color: #ffffff; */
+  color: #00ff55;
 }
     </style>
 
