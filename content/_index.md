@@ -126,10 +126,10 @@ table tr:nth-child(even) {
     <div class="justify-content-center row">
         <div class="col col-auto col-lg-7 px-0">
             <p class="lead text-center"><mark>We make sure to give you what you need, when you need it:</mark></p>
-            <ul class="lead text-center">
+            <ul class="lead text-left" style="margin-top: 30px;">
                 <li>Nitric oxide boosters such as Agmatine Sulfate & L-Citrulline.</li>
                 <li>Tumeric for antioxidants & cell support.</li>
-                <li>Black Pepper extact for increased absorption of supplements.</li>
+                <li>Black Pepper extract for increased absorption of supplements.</li>
                 <li>Lions Mane Mushroom & Ashwanganda for superior mind to muscle connection.</li>
                 <li>L-Carnosine & Hisidine for increased Beta Alanine absorption.</li>
             </ul>  
