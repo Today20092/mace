@@ -6,7 +6,7 @@
 
 /* Set the background color for the page */
 body {
-  background-color: #ffc8c8;
+  background-color: #ff894442;
 }
 
 /* Center all content horizontally */
@@ -41,7 +41,12 @@ header {
 
 /* Style the header text */
 h1 {
-  /* color: white; */
+  font-size: 72px;
+  text-shadow: 2px 2px 2px #333333;
+}
+
+.colored{
+  color: rgb(255, 139, 89);
   font-size: 72px;
   text-shadow: 2px 2px 2px #333333;
 }
