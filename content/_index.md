@@ -45,20 +45,28 @@ table tr:nth-child(even) {
   color: #00ff55;
 }
 /* Everything below here affects the ABOUT US Section */
-.container {
+
+.aboutuscontainer {
   display: flex;
 }
 
 .box {
-  width: 800px;
-  height: 400px;
-  margin-right: 40px;
-  margin-bottom: 10px;
-  background-color: rgba(0, 0, 0, 0.185);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 12px;
+    display: flex;
+    width: 40vw;
+    height: 30vw;
+    margin: 1vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+}
+/* This affects any screen smaller than 768px, it will overide the width/height for .box */
+@media (max-width: 768px) {
+  .box {
+    width: 45vw;
+    height: 40vw;
+  }
 }
 
 .rounded-box {
@@ -68,6 +76,15 @@ table tr:nth-child(even) {
   background-color: black;
     color: rgb(255, 255, 255);
     padding-bottom: 6px;
+}
+/* For the animation of the About Us Section */
+.modern-image {
+  transition: transform 0.3s;
+}
+
+.modern-image:hover {
+  transform: scale(1.1);
+  overflow: hidden;
 }
 /* End of about us section */
     </style>
@@ -168,14 +185,14 @@ table tr:nth-child(even) {
     </div>
 </div>
 
-<p class="display-5 fw-bold h2 text-center">Who are the creators?</p>
+<p class="display-5 fw-bold h2 text-center">Who are we?</p>
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="col col-auto col-lg-7 px-0">
-        <div class="container">
-        <div class="box"></p>Ayoub</p></div>
-        <div class="box"></p>Juan</p></div>
-        <div class="box"></p>Mustafa</p></div>
+        <div class="aboutuscontainer">
+            <div class="box modern-image" style="background-image: url('ayoub.jpg'); background-position: 30% 50%;"></div>
+            <div class="box modern-image" style="background-image: url('juan.jpg');"></div>
+            <div class="box modern-image" style="background-image: url('mustafa.jpg');  background-position: 50% 50%;"></div>
       </div>
         </div>
     </div>
