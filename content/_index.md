@@ -47,7 +47,7 @@ table tr:nth-child(even) {
     </style>
 
 <!-- This is the main image of the page -->
-<p>{{% paige/image alt="Landscape" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="https://tinyurl.com/22hxhju7" width="100%" %}}</p>
+<p>{{% paige/image alt="Person using battleropes in the gym" breakpoints=true class="object-fit-cover rounded-4" fetchpriority="high" height="20rem" loading="eager" process="webp" src="Main-Photo.jpg" width="100%" %}}</p>
 
 <p class="display-5 fw-bold h2 text-center">What is Mace Preworkout?</p>
 <!-- This is the main body paragraph -->
