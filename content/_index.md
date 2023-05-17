@@ -49,19 +49,19 @@ table tr:nth-child(even) {
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="col col-auto col-lg-7 px-0">
-            <p class="lead text-center">MACE Preworkout is flavored naturally, is naturally colored, has a hint of stevia, and is designed to optimize your performance with a kick. </p>
+            <p class="lead text-center">MACE Preworkout is flavored naturally 🍀, is naturally colored 💧, has a hint of stevia ☘️, and is designed to optimize your performance 🏋️ with a kick. </p>
         </div>
     </div>
 </div>
-
+<!-- Table of supplements located here -->
 <p class="display-5 fw-bold h2 text-center">What's in it?</p>
 <!-- This is the table for the supplementation info -->
     <div style="display: flex; justify-content: center;">
         <table>
             <thead>
             <tr>
-                <th>Ingredient</th>
-                <th>Quantity (mg)</th>
+                <th>Ingredients 💊</th>
+                <th>Quantity (mg) ✅</th>
             </tr>
             </thead>
             <tbody>
