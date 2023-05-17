@@ -8,7 +8,7 @@ paige:
         display: none;
     }
     #paige-title {
-        font-size: 5rem;
+        font-size: 9vw;
     }
 title: 'MACE PRE-WORKOUT'
 ---
