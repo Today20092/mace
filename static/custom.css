@@ -25,9 +25,6 @@ textarea {
   font-size: 16px;
 }
 
-
-
-
 /* Style the header text */
 h1 {
   font-size: 72px;
@@ -183,7 +180,7 @@ nav.thin a {
   display: flex;
 }
 
-.box {
+.box1 {
   display: flex;
   width: 40vw;
   height: 20vw;
