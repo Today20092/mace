@@ -157,7 +157,7 @@ nav.thin a {
   height: 400px;
   margin-right: 40px;
   margin-bottom: 10px;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.185);
   display: flex;
   justify-content: center;
   align-items: center;
