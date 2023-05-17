@@ -34,7 +34,7 @@ h1 {
   text-shadow: 2px 2px 2px #333333;
 }
 
-.colored{
+.colored {
   color: rgb(255, 139, 89);
   font-size: 72px;
   text-shadow: 2px 2px 2px #333333;
@@ -147,7 +147,7 @@ nav.thin a {
   margin-right: 20px;
   margin-left: 20px;
   margin-bottom: 10px;
-  background-color: rgba(0, 0, 0, 0.185);
+  background-color: rgba(0, 0, 0, 0);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -159,27 +159,14 @@ nav.thin a {
   padding: 5px;
   border-radius: 12px;
   background-color: black;
-    color: rgb(255, 255, 255);
-    padding-bottom: 6px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 6px;
 }
-
 
 .common-heading {
   font-size: 44px;
   text-align: center;
 }
-
-.modern-image {
-  transition: transform 0.3s;
-}
-
-.modern-image:hover {
-  transform: scale(1.1);
-  overflow: hidden;
-}
-
-
-
 
 @keyframes fade-in {
   0% {
@@ -189,3 +176,68 @@ nav.thin a {
     opacity: 1;
   }
 }
+
+/* Everything below here affects the ABOUT US Section */
+
+.aboutuscontainer {
+  display: flex;
+}
+
+.box {
+  display: flex;
+  width: 40vw;
+  height: 20vw;
+  margin: 1vw;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+}
+
+.newbox {
+  display: flex;
+  width: 40vw;
+  height: 2vw;
+  margin: 1vw;
+  justify-content: top;
+  align-items: center;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+}
+
+.newbox h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.newbox p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* This makes the image pop out a little bit. */
+.modern-image {
+  transition: transform 0.3s;
+}
+
+.modern-image:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+/* This affects any screen smaller than 768px, it will overide the width/height for .box */
+@media (max-width: 768px) {
+  .box {
+    width: 45vw;
+    height: 40vw;
+  }
+  /* This changes the mobile version to have the correct spacing on the bottom before the next heading section */
+  .newbox {
+    margin-bottom: 12vw;
+  }
+}
+
+/* This is the end of the about us section */
