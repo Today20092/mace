@@ -55,6 +55,7 @@ table tr:nth-child(even) {
 </div>
 
 <p class="display-5 fw-bold h2 text-center">What's in it?</p>
+<!-- This is the table for the supplementation info -->
     <div style="display: flex; justify-content: center;">
         <table>
             <thead>
@@ -65,7 +66,7 @@ table tr:nth-child(even) {
             </thead>
             <tbody>
             <tr>
-                <td>B12 (1% Cyanocobalamin)</td>
+                <td>B12 (8333% DV)</td>
                 <td>20.00mg</td>
             </tr>
             <tr>
@@ -124,7 +125,14 @@ table tr:nth-child(even) {
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="col col-auto col-lg-7 px-0">
-            <p class="lead text-center">we're just crazy like that</p>
+            <p class="lead text-center"><mark>We make sure to give you what you need, when you need it:</mark></p>
+            <ul class="lead text-center">
+                <li>Nitric oxide boosters such as Agmatine Sulfate & L-Citrulline.</li>
+                <li>Tumeric for antioxidants & cell support.</li>
+                <li>Black Pepper extact for increased absorption of supplements.</li>
+                <li>Lions Mane Mushroom & Ashwanganda for superior mind to muscle connection.</li>
+                <li>L-Carnosine & Hisidine for increased Beta Alanine absorption.</li>
+            </ul>  
         </div>
     </div>
 </div>
@@ -142,7 +150,7 @@ table tr:nth-child(even) {
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="col col-auto col-lg-7 px-0">
-            <p class="lead text-center">MACE pre-workout will be ready as fast as you can make it! We are currently taking pre-orders with a one time discount & limited edition sticker for our early supporters.</p>
+            <p class="lead text-center">MACE pre-workout will be ready as fast as you can make it! We are currently taking pre-orders with a one time discount & <strong>limited edition</strong> sticker for our early supporters.</p>
         </div>
     </div>
 </div>
