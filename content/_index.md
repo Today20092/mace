@@ -44,6 +44,32 @@ table tr:nth-child(even) {
   /* background-color: #ffffff; */
   color: #00ff55;
 }
+/* Everything below here affects the ABOUT US Section */
+.container {
+  display: flex;
+}
+
+.box {
+  width: 800px;
+  height: 400px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.185);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.rounded-box {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 12px;
+  background-color: black;
+    color: rgb(255, 255, 255);
+    padding-bottom: 6px;
+}
+/* End of about us section */
     </style>
 
 <!-- This is the main image of the page -->
@@ -146,7 +172,11 @@ table tr:nth-child(even) {
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="col col-auto col-lg-7 px-0">
-            <p class="lead text-center">Ayoub Juan Mustafa</p>
+        <div class="container">
+        <div class="box"></p>Ayoub</p></div>
+        <div class="box"></p>Juan</p></div>
+        <div class="box"></p>Mustafa</p></div>
+      </div>
         </div>
     </div>
 </div>
