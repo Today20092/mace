@@ -53,7 +53,7 @@ table tr:nth-child(even) {
 .box {
     display: flex;
     width: 40vw;
-    height: 30vw;
+    height: 20vw;
     margin: 1vw;
     justify-content: center;
     align-items: center;
@@ -61,11 +61,39 @@ table tr:nth-child(even) {
     background-size: cover;
     background-position: center;
 }
+
+.newbox {
+    display: flex;
+    width: 40vw;
+    height: 2vw;
+    margin: 1vw;
+    justify-content: top;
+    align-items: center;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+.newbox h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.newbox p {
+  font-size: 1rem;
+  color: #555;
+}
+
 /* This affects any screen smaller than 768px, it will overide the width/height for .box */
 @media (max-width: 768px) {
   .box {
     width: 45vw;
     height: 40vw;
+  }
+  /* This changes the mobile version to have the correct spacing on the bottom before the next heading section */
+  .newbox {
+    margin-bottom: 12vw;
   }
 }
 
@@ -189,13 +217,25 @@ table tr:nth-child(even) {
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="col col-auto col-lg-7 px-0">
-        <div class="aboutuscontainer">
-            <div class="box modern-image" style="background-image: url('ayoub.jpg'); background-position: 30% 50%;"></div>
-            <div class="box modern-image" style="background-image: url('juan.jpg');"></div>
-            <div class="box modern-image" style="background-image: url('mustafa.jpg');  background-position: 50% 50%;"></div>
-      </div>
+            <div class="aboutuscontainer">
+                <div class="box modern-image" style="background-image: url('ayoub.jpg'); background-position: 30% 50%;"></div>
+                <div class="box modern-image" style="background-image: url('juan.jpg');"></div>
+                <div class="box modern-image" style="background-image: url('mustafa.jpg');  background-position: 50% 50%;"></div>
+            </div>
+            <div class="aboutuscontainer">
+                <div class="newbox">
+                    <h2>Ayoub</h2>
+                </div>
+                <div class="newbox">
+                    <h2>Juan</h2>
+                </div>
+                <div class="newbox">
+                    <h2>Mustafa</h2>
+                </div>
+            </div>
         </div>
     </div>
+
 </div>
 
 <p class="display-5 fw-bold h2 text-center">When will it be ready?</p>
