@@ -26,18 +26,27 @@ table {
   margin: 50px auto;
   max-width: 100%;
   width: 600px;
+  text-align: center;
 }
 
-table td,
+/* table td {
+    text-align: left;
+    padding-left: 50px;
+} */
+
 table th {
+  background-color: #f2f2f200;
+}
+
+table th, table td {
   border: 1px solid rgba(0, 0, 0, 0);
   padding: 8px;
+  padding-left: 50px;
   text-align: left;
+  background-color: rgba(0, 0, 0, 0);
+
 }
 
-table th {
-  background-color: rgba(0, 0, 0, 0);
-}
 
 /* Alternating row colors */
 table tr:nth-child(even) {
@@ -132,7 +141,7 @@ table tr:nth-child(even) {
 <!-- Table of supplements located here -->
 <p class="display-5 fw-bold h2 text-center">What's in it?</p>
 <!-- This is the table for the supplementation info -->
-    <div style="display: flex; justify-content: center;">
+    <div style="display: flex; justify-content: center; text-align: center;">
         <table>
             <thead>
             <tr>
