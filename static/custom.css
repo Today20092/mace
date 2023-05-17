@@ -6,7 +6,7 @@
 
 /* Set the background color for the page */
 body {
-  background-color: #cf9f9f;
+  background-color: #ffc8c8;
 }
 
 /* Center all content horizontally */
@@ -41,14 +41,14 @@ header {
 
 /* Style the header text */
 h1 {
-  color: white;
+  /* color: white; */
   font-size: 72px;
   text-shadow: 2px 2px 2px #333333;
 }
 
 /* Style the main content area */
 main {
-  max-width: 800px;
+  max-width: 1080px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -171,9 +171,13 @@ nav.thin a {
 .box {
   width: 800px;
   height: 400px;
-  margin-right: 10px;
+  margin-right: 40px;
   margin-bottom: 10px;
-  background-color: gray;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
 }
 
 .rounded-box {
@@ -181,11 +185,24 @@ nav.thin a {
   padding: 5px;
   border-radius: 12px;
   background-color: black;
-    color: gold;
+    color: rgb(255, 255, 255);
     padding-bottom: 6px;
 }
 
 
+.common-heading {
+  font-size: 44px;
+  text-align: center;
+}
+
+.modern-image {
+  transition: transform 0.3s;
+}
+
+.modern-image:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+}
 
 
 
