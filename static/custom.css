@@ -217,6 +217,8 @@ nav.thin a {
 
 /* This makes the image pop out a little bit. */
 .modern-image {
+  max-width: 100%;
+  height: auto;
   transition: transform 0.3s;
 }
 
