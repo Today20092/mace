@@ -146,13 +146,13 @@ table tr:nth-child(even) {
             <thead>
             <tr>
                 <th>Ingredients 💊</th>
-                <th>Quantity (mg) ✅</th>
+                <th>Quantity ✅</th>
             </tr>
             </thead>
             <tbody>
             <tr>
                 <td>B12 (8333% DV)</td>
-                <td>20.00mg</td>
+                <td>20.00mcg</td>
             </tr>
             <tr>
                 <td>Piperine Powder</td>
