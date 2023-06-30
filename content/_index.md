@@ -152,55 +152,55 @@ table tr:nth-child(even) {
             <tbody>
             <tr>
                 <td>B12 (8333% DV)</td>
-                <td>200.00mcg</td>
+                <td>200mcg</td>
             </tr>
             <tr>
                 <td>Piperine Powder</td>
-                <td>20.00mg</td>
+                <td>20mg</td>
             </tr>
             <tr>
                 <td>L-Carnosine</td>
-                <td>20.00mg</td>
+                <td>20mg</td>
             </tr>
             <tr>
                 <td>L-Histidine</td>
-                <td>60.00mg</td>
+                <td>60mg</td>
             </tr>
             <tr>
                 <td>Lions Mane Mushroom</td>
-                <td>100.00mg</td>
+                <td>100mg</td>
             </tr>
             <tr>
                 <td>Caffeine</td>
-                <td>150.00mg</td>
+                <td>150mg</td>
             </tr>
             <tr>
                 <td>Turmeric Extract</td>
-                <td>250.00mg</td>
+                <td>250mg</td>
             </tr>
             <tr>
                 <td>Ashwagandha Powder</td>
-                <td>350.00mg</td>
+                <td>350mg</td>
             </tr>
             <tr>
                 <td>Alpha GPC</td>
-                <td>400.00mg</td>
+                <td>400mg</td>
             </tr>
             <tr>
                 <td>Taurine</td>
-                <td>1000.00mg</td>
+                <td>1000mg</td>
             </tr>
             <tr>
                 <td>Beta Alanine</td>
-                <td>1600.00mg</td>
+                <td>1600mg</td>
             </tr>
             <tr>
                 <td>Agmatine Sulfate</td>
-                <td>3000.00mg</td>
+                <td>3000mg</td>
             </tr>
             <tr>
                 <td>L-Citrulline DL-Malate 2:1 Powder</td>
-                <td>6000.00mg</td>
+                <td>6000mg</td>
             </tr>
             </tbody>
         </table>
